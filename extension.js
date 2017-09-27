@@ -66,7 +66,7 @@
       lockdownEnabled: false,
       lockGuard: false,
       maximumLocktime: 10,
-      cycleGuard: true,
+      cycleGuard: false,
       maximumCycletime: 10,
       voteSkip: false,
       voteSkipLimit: 10,
@@ -102,7 +102,7 @@
       website: null,
       intervalMessages: [],
       messageInterval: 5,
-      songstats: true,
+      songstats: false,
       commandLiteral: "!",
       blacklists: {
         NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
